@@ -45,3 +45,6 @@ const arr2 = new Array(1,2,3,4,5,6) // another way to create an array of numbers
 // const newAr4 = arr.splice(1, 3, 7, 8, 9) // the first argument is the start index, the second argument is the number of elements to remove, the rest of the arguments are the elements to add to the array
 // console.log(newAr4) // [2,3,4]
 // console.log(arr) // [1,7,8,9,5,6] // the original array has been changed first 3 elements have been removed and 7,8,9 have been added to the array and the rest of the elements have been shifted to the right
+
+const newArr = arr.concat([7, 8, 9]); // Returns a new array that is the result of concatenating the calling array with one or more arrays. 
+console.log(newArr); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
